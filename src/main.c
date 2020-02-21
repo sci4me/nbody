@@ -47,7 +47,7 @@ int main(int argc, char **argv) {
     u32 WIDTH = 1280;
     u32 HEIGHT = 720;
 
-    GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "B1", 0, 0);
+    GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "nbody", 0, 0);
     if(!window) {
         printf("Couldn't create window\n");
 
